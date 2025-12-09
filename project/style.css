@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+}
+.container{
+    display: grid;
+    border: 2px solid;
+    padding: 0px;
+    width: 32em;
+    height: 33em;
+    gap: 1px;
+    grid-template-columns: 2fr 5fr;
+    /* grid-template-rows: ; */ 
+    background-color: dodgerblue;  
+    grid-template-areas:
+    "header header"
+    "menu content"
+    "footer footer"; 
+}
+.container div{
+    background-color: white;
+    padding: 16.5px;
+}
+.container div.header{
+    text-align: center;
+}
+.container div.footer{
+    text-align: center;
+}

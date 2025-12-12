@@ -8,12 +8,12 @@ body{
 .container{
     display: grid;
     border: 2px solid;
-    padding: 0px;
-    width: 32em;
-    height: 33em;
+    padding: 0;
+    width: 49em;
+    height: 32em;
     gap: 1px;
-    grid-template-columns: 2fr 5fr;
-    /* grid-template-rows: ; */ 
+    grid-template-columns: 1fr 4fr ;
+    /* grid-template-rows: ;  */
     background-color: dodgerblue;  
     grid-template-areas:
     "header header"
@@ -21,6 +21,7 @@ body{
     "footer footer"; 
 }
 .container div{
+    /* border: 1px solid;   */
     background-color: white;
     padding: 16.5px;
 }
@@ -29,4 +30,16 @@ body{
 }
 .container div.footer{
     text-align: center;
+}
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 50px;
+}
+.table div{
+    border: 1px solid;
+    background-color: rgba(0, 207, 0, 0.253);  
+}
+.col{
+    font-size: 1.5em; 
 }

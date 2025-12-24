@@ -50,3 +50,30 @@ body{
 .table div{
     font-size: 1.5em; 
 }    
+
+.popup{
+    border: 1px solid;
+    padding: 50px;
+    position: relative;
+    right: 2em;
+    /* display: none; */
+    border-radius: 10px;
+}
+/* .label-box{
+    border: 1px solid;
+    position: relative;
+    right: 2em;
+    padding: 10px;
+    font-size: 2em;
+    border-radius: 10px;
+}
+.label-button{
+    cursor: pointer;
+}
+.label-button:active{
+    display: inline;
+} */
+
+body:has(input:checked) {
+    background-color: red;
+}
